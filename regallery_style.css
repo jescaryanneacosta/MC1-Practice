@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+body{
+    margin: 0px;
+    font-family: 'Lato', sans-serif;
+    overflow-x: hidden;
+}
+
+div.container{
+    margin-top: 30px;
+}
+div.header{
+    margin-top: 8px;
+}
+div.content{
+    margin-top: 22px;
+    display: flex;
+    justify-content: center;
+}
+div.footer{
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+}
+
+div.main-title{
+    font-weight: 700;
+    font-size: 65px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+span.re{
+    color: rgba(0, 0, 0, 0.4);
+}
+span.colon{
+    color: rgb(31, 214, 222);
+}
+
+div.corner-left{
+    margin-left: 10px;
+    margin-right: 10px;
+    background-image: url("img-left2.png");
+    display: flex;
+    justify-content: center;
+}
+div.left{
+    margin-left: 10px;
+    margin-right: 10px;
+    background-image: url("img-left1.png");
+}
+div.middle{
+    margin-left: 10px;
+    margin-right: 10px;
+    background-image: url("img-middle.png");
+}
+div.right{
+    margin-left: 10px;
+    margin-right: 10px;
+    background-image: url("img-right1.png");
+}
+div.corner-right{
+    margin-left: 10px;
+    margin-right: 10px;
+    background-image: url("img-right2.png");
+}
+
+div.medium{
+    width: 340px;
+    height: 340px;
+    background-size: 340px 361px;
+    background-repeat: no-repeat;
+    margin-top: auto;
+    margin-bottom: auto;
+    border-radius: 30px;
+    zoom: 70%;
+}
+div.overlay-med{
+    width: 290px;
+    height: 290px;
+    border: 25px  solid  rgba(0, 0, 0, 0.5);
+    border-radius: 30px;
+    margin: auto;
+}
+div.inner-border{
+    border: 3px solid rgba(255, 255, 255, 1);
+    height: 98%;
+    width: 98%;
+    margin: auto;
+    display: flex;
+}
+
+text.num-font{
+    font-size: 50px;
+    color: rgba(255, 255, 255, 0.8);
+    margin-left: 5px;
+    margin-bottom: auto;
+}
+
+div.large{
+    width: 340px;
+    height: 340px;
+    background-size: 340px 361px;
+    background-repeat: no-repeat;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 320px;
+    zoom: 115%;
+}
+div.overlay-large{
+    width: 300px;
+    height: 300px;
+    border: 20px  solid  rgba(0, 0, 0, 0.5);
+    border-radius: 360px;
+    margin: auto;
+}
+div.inner-border-large{
+    border: 3px solid rgba(255, 255, 255, 1);
+    height: 98%;
+    width: 98%;
+    margin: auto;
+    display: flex;
+    border-radius: 360px;
+}
+
+div.desc-title{
+    width: 370px;
+    font-size: 40px;
+    text-align: right;
+    color: rgb(31, 214, 222);
+    line-height: 40px;
+}
+div.divider{
+    width: 3px;
+    height: 130px;
+    background-color: black;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+div.description{
+    width: 370px;
+    font-size: 15px;
+    text-align: justify;
+    color: rgba(0, 0, 0, 0.5);
+}
+span.website{
+    color: rgb(31, 214, 222);
+}
